@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plâtrerie Delmas — Plaquiste à Mâcon</title>
+  <meta name="description" content="Plaquiste à Mâcon et en Saône-et-Loire : cloisons, doublages, plafonds, bandes et enduits. Devis gratuit sous 48 h.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Bandeau infos -->
+  <div class="topbar">
+    <div class="wrap topbar__inner">
+      <span>Mâcon · Saône-et-Loire (71)</span>
+      <span class="topbar__right">
+        <a href="tel:+33385000000">03 85 00 00 00</a>
+        <a href="mailto:contact@platrerie-delmas.fr">contact@platrerie-delmas.fr</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a href="#top" class="logo" aria-label="Plâtrerie Delmas, accueil">
+        <svg viewBox="0 0 40 28" aria-hidden="true"><path d="M2 6h22M2 14h30M2 22h36" /></svg>
+        <span>Plâtrerie <b>Delmas</b></span>
+      </a>
+      <nav class="nav__links" id="menu" aria-label="Navigation principale">
+        <a href="#travaux">Réalisations</a>
+        <a href="#services">Savoir-faire</a>
+        <a href="#methode">Méthode</a>
+        <a href="#secteur">Secteur</a>
+        <a href="#contact" class="btn btn--sm">Demander un devis</a>
+      </nav>
+      <button class="nav__burger" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__panel">
+        <div class="wrap hero__content">
+          <p class="tag">Plaquiste · Plâtrier depuis 2009</p>
+          <h1>Des murs droits.<br>Des plafonds nets.<br><span>Des joints invisibles.</span></h1>
+          <ul class="checks">
+            <li>Cloisons &amp; doublages</li>
+            <li>Faux plafonds</li>
+            <li>Bandes &amp; enduits</li>
+          </ul>
+          <div class="hero__cta">
+            <a href="#contact" class="btn">Devis gratuit</a>
+            <a href="tel:+33385000000" class="hero__call">
+              <small>Appel ou SMS</small>
+              03 85 00 00 00
+            </a>
+          </div>
+        </div>
+      </div>
+      <figure class="hero__photo">
+        <img src="assets/img/hero.jpg" alt="Plaquiste ponçant les joints d'un plafond en plaques de plâtre" fetchpriority="high">
+      </figure>
+    </section>
+
+    <!-- Chiffres -->
+    <section class="figures" aria-label="En chiffres">
+      <div class="wrap figures__grid">
+        <div><strong>17</strong><span>ans de métier</span></div>
+        <div><strong>420+</strong><span>chantiers livrés</span></div>
+        <div><strong>48 h</strong><span>pour recevoir votre devis</span></div>
+        <div><strong>10 ans</strong><span>garantie décennale</span></div>
+      </div>
+    </section>
+
+    <!-- RÉALISATIONS avant / après -->
+    <section class="section" id="travaux">
+      <div class="wrap">
+        <div class="head head--split">
+          <div>
+            <p class="tag tag--light">Réalisations</p>
+            <h2>Avant, après.<br>Faites glisser.</h2>
+          </div>
+          <p class="head__aside">Quelques chantiers récents autour de Mâcon. Attrapez la poignée orange pour comparer l'état de départ et le rendu livré.</p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Choisir un chantier">
+          <button role="tab" aria-selected="true" data-project="0">Rénovation complète</button>
+          <button role="tab" aria-selected="false" data-project="1">Cloisons &amp; doublage</button>
+          <button role="tab" aria-selected="false" data-project="2">Bandes &amp; finitions</button>
+          <button role="tab" aria-selected="false" data-project="3">Sous-sol aménagé</button>
+        </div>
+
+        <div class="project">
+          <div class="ba" data-ba>
+            <img class="ba__img ba__img--after" src="assets/img/apres-renovation.jpg" alt="Après : pièce rénovée, murs et plafond finis">
+            <div class="ba__before">
+              <img class="ba__img" src="assets/img/avant-renovation.jpg" alt="Avant : pièce en chantier, murs bruts">
+            </div>
+            <span class="ba__label ba__label--before">Avant</span>
+            <span class="ba__label ba__label--after">Après</span>
+            <div class="ba__handle" aria-hidden="true"><span></span></div>
+            <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Comparer avant et après">
+          </div>
+
+          <aside class="sheet">
+            <p class="sheet__num">Chantier <span data-f="num">n°118</span></p>
+            <h3 data-f="title">Appartement ancien, quai Lamartine</h3>
+            <dl>
+              <div><dt>Lieu</dt><dd data-f="place">Mâcon centre</dd></div>
+              <div><dt>Surface</dt><dd data-f="area">68 m²</dd></div>
+              <div><dt>Durée</dt><dd data-f="time">3 semaines</dd></div>
+            </dl>
+            <p data-f="text">Dépose des anciens enduits, doublage isolant sur les murs de façade, plafond refait en plaques sur ossature, bandes et enduit de finition prêt à peindre.</p>
+          </aside>
+        </div>
+
+        <ol class="thumbs" aria-label="Tous les chantiers">
+          <li><button data-project="0"><img src="assets/img/apres-renovation.jpg" alt=""><span>Rénovation complète</span></button></li>
+          <li><button data-project="1"><img src="assets/img/apres-cloisons.jpg" alt=""><span>Cloisons &amp; doublage</span></button></li>
+          <li><button data-project="2"><img src="assets/img/apres-bandes.jpg" alt=""><span>Bandes &amp; finitions</span></button></li>
+          <li><button data-project="3"><img src="assets/img/apres-sous-sol.jpg" alt=""><span>Sous-sol aménagé</span></button></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section--paper" id="services">
+      <div class="wrap">
+        <div class="head">
+          <p class="tag tag--light">Savoir-faire</p>
+          <h2>Tout ce qui se pose,<br>se jointe et se ponce.</h2>
+        </div>
+
+        <div class="services">
+          <article class="svc svc--big">
+            <img src="assets/img/service-isolation.jpg" alt="Pièce en cours d'aménagement, cloisons posées" loading="lazy">
+            <div class="svc__body">
+              <span class="svc__n">01</span>
+              <h3>Cloisons &amp; doublages</h3>
+              <p>Cloisons sur rail, doublages collés ou sur ossature, isolation thermique et phonique. Plaques standard, hydro pour les pièces d'eau, feu pour les locaux pros.</p>
+            </div>
+          </article>
+          <article class="svc">
+            <img src="assets/img/service-plafond.jpg" alt="Séjour avec plafond lisse et suspensions" loading="lazy">
+            <div class="svc__body">
+              <span class="svc__n">02</span>
+              <h3>Plafonds &amp; faux plafonds</h3>
+              <p>Plafonds suspendus, rampants de combles, caissons pour spots et gaines.</p>
+            </div>
+          </article>
+          <article class="svc">
+            <img src="assets/img/service-enduit.jpg" alt="Application d'enduit au couteau à enduire" loading="lazy">
+            <div class="svc__body">
+              <span class="svc__n">03</span>
+              <h3>Bandes &amp; enduits</h3>
+              <p>Joints à la bande, enduit de lissage, ratissage complet pour un support prêt à peindre.</p>
+            </div>
+          </article>
+          <article class="svc">
+            <img src="assets/img/service-poncage.jpg" alt="Ponçage d'un mur à la ponceuse électrique" loading="lazy">
+            <div class="svc__body">
+              <span class="svc__n">04</span>
+              <h3>Reprises &amp; réparations</h3>
+              <p>Fissures, trous, dégâts des eaux : on reprend proprement sans refaire toute la pièce.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="section about">
+      <div class="wrap about__grid">
+        <figure class="about__photo">
+          <img src="assets/img/atelier.jpg" alt="Plaquiste sur échasses ponçant un plafond" loading="lazy">
+          <figcaption>Ponçage girafe, sur échasses : plus rapide, sans échafaudage.</figcaption>
+        </figure>
+        <div class="about__text">
+          <p class="tag tag--light">L'entreprise</p>
+          <h2>Un artisan, une équipe de trois, zéro sous-traitance.</h2>
+          <p class="lead">Thomas Delmas a commencé comme compagnon plâtrier avant de monter son entreprise à Mâcon. Aujourd'hui, c'est la même équipe qui vient poser, jointer et poncer chez vous, du premier rail au dernier coup de couteau.</p>
+          <ul class="facts">
+            <li><b>Chantier bâché et aspiré</b> chaque soir. Vous retrouvez une maison vivable.</li>
+            <li><b>Un seul interlocuteur</b> du devis à la réception.</li>
+            <li><b>Délais tenus</b>, et écrits sur le devis.</li>
+          </ul>
+          <a href="#contact" class="link-arrow">Parler de votre projet</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MÉTHODE -->
+    <section class="section section--dark" id="methode">
+      <div class="wrap">
+        <div class="head head--center">
+          <p class="tag">Comment on travaille</p>
+          <h2>Quatre étapes, pas de surprise</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="steps__n">01</span>
+            <h3>Premier appel</h3>
+            <p>Vous décrivez le projet, on cale une visite dans la semaine.</p>
+          </li>
+          <li>
+            <span class="steps__n">02</span>
+            <h3>Visite &amp; métré</h3>
+            <p>On mesure, on vérifie les supports, on parle finitions et budget.</p>
+          </li>
+          <li>
+            <span class="steps__n">03</span>
+            <h3>Devis détaillé</h3>
+            <p>Sous 48 h, poste par poste, avec date de démarrage et durée.</p>
+          </li>
+          <li>
+            <span class="steps__n">04</span>
+            <h3>Chantier &amp; réception</h3>
+            <p>Pose, joints, ponçage. On fait le tour ensemble avant de partir.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- AVIS -->
+    <section class="section">
+      <div class="wrap">
+        <div class="head">
+          <p class="tag tag--light">Ils nous ont confié leurs murs</p>
+          <h2>Ce qu'en disent les clients</h2>
+        </div>
+        <div class="quotes">
+          <blockquote>
+            <p>« Doublage complet d'une longère à Cluny. Les murs n'étaient droits nulle part, maintenant si. Et le chantier était propre tous les soirs. »</p>
+            <footer><b>Claire M.</b> — Cluny</footer>
+          </blockquote>
+          <blockquote>
+            <p>« Devis reçu en deux jours, travaux faits à la date prévue. Le plafond du séjour est parfaitement lisse, même en lumière rasante. »</p>
+            <footer><b>Julien R.</b> — Charnay-lès-Mâcon</footer>
+          </blockquote>
+          <blockquote>
+            <p>« On a refait nos bureaux : cloisons vitrées et faux plafond. Équipe carrée, aucun retard sur un planning serré. »</p>
+            <footer><b>Agence Ferrand</b> — Mâcon</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTEUR -->
+    <section class="section section--paper" id="secteur">
+      <div class="wrap secteur">
+        <div>
+          <p class="tag tag--light">Secteur d'intervention</p>
+          <h2>Mâcon et 40 km autour</h2>
+          <p class="lead">Basés à Mâcon, on intervient chez les particuliers, artisans et promoteurs du Mâconnais, du Clunisois et de la Bresse.</p>
+        </div>
+        <ul class="towns">
+          <li>Mâcon</li><li>Charnay-lès-Mâcon</li><li>Sancé</li><li>Crêches-sur-Saône</li>
+          <li>Cluny</li><li>Tournus</li><li>Pont-de-Vaux</li><li>Replonges</li>
+          <li>Feillens</li><li>La Chapelle-de-Guinchay</li><li>Bourg-en-Bresse</li><li>Romanèche-Thorins</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="wrap contact__grid">
+        <div class="contact__info">
+          <p class="tag">Devis gratuit</p>
+          <h2>Parlez-nous<br>de votre chantier</h2>
+          <p>Décrivez en quelques lignes ce que vous voulez faire. On vous rappelle sous 24 h ouvrées pour caler une visite.</p>
+          <ul class="contact__list">
+            <li><small>Téléphone</small><a href="tel:+33385000000">03 85 00 00 00</a></li>
+            <li><small>E-mail</small><a href="mailto:contact@platrerie-delmas.fr">contact@platrerie-delmas.fr</a></li>
+            <li><small>Horaires</small>Lun–ven, 7 h 30 – 18 h</li>
+          </ul>
+        </div>
+
+        <form class="form" id="devis" novalidate>
+          <div class="form__row">
+            <label>
+              <span>Nom *</span>
+              <input name="nom" type="text" autocomplete="name" required>
+            </label>
+            <label>
+              <span>Téléphone *</span>
+              <input name="telephone" type="tel" autocomplete="tel" required pattern="[0-9 +().-]{10,}">
+            </label>
+          </div>
+          <div class="form__row">
+            <label>
+              <span>E-mail</span>
+              <input name="email" type="email" autocomplete="email">
+            </label>
+            <label>
+              <span>Commune *</span>
+              <input name="commune" type="text" autocomplete="address-level2" required>
+            </label>
+          </div>
+          <fieldset class="form__chips">
+            <legend>Type de travaux</legend>
+            <label><input type="checkbox" name="travaux" value="Cloisons"><span>Cloisons</span></label>
+            <label><input type="checkbox" name="travaux" value="Doublage / isolation"><span>Doublage / isolation</span></label>
+            <label><input type="checkbox" name="travaux" value="Plafond"><span>Plafond</span></label>
+            <label><input type="checkbox" name="travaux" value="Bandes & enduits"><span>Bandes &amp; enduits</span></label>
+            <label><input type="checkbox" name="travaux" value="Réparation"><span>Réparation</span></label>
+          </fieldset>
+          <label>
+            <span>Votre projet *</span>
+            <textarea name="message" rows="5" required placeholder="Ex. : doubler 2 murs d'une chambre de 12 m², maison des années 70, démarrage souhaité en mars."></textarea>
+          </label>
+          <label class="form__consent">
+            <input type="checkbox" name="consentement" required>
+            <span>J'accepte que mes coordonnées soient utilisées pour me recontacter au sujet de ma demande.</span>
+          </label>
+          <button type="submit" class="btn btn--block">Envoyer ma demande</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <a href="#top" class="logo logo--light">
+        <svg viewBox="0 0 40 28" aria-hidden="true"><path d="M2 6h22M2 14h30M2 22h36" /></svg>
+        <span>Plâtrerie <b>Delmas</b></span>
+      </a>
+      <p>Plaquiste · Plâtrier — Mâcon (71000)<br>SIRET 000 000 000 00000 · Assurance décennale</p>
+      <p class="footer__credits">Photos : <a href="https://www.pexels.com" rel="noopener">Pexels</a> (Tima Miroshnichenko, Ksenia Chernaya, Francesco Ungaro, Thirdman et al.)</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
